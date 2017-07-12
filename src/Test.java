@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Test {
 
     public static void main(String[] args) {
-        menu();
+        runMenu();
     }
 
     private static int inputIntNumbers() throws Exception {
@@ -26,7 +26,7 @@ public class Test {
     }
 
 
-    private static void menu()
+    private static void runMenu()
 
     {
         System.out.println("Enter size of array");
